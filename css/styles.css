@@ -669,6 +669,7 @@ ul {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
+    resize: none;
 }
 .form-icon {
     position: absolute;
@@ -690,6 +691,7 @@ ul {
 .policy {
     flex-direction: row;
     margin-top: 20px;
+    position: relative;
 }
 .agree-checkbox {
     font-weight: 400;
@@ -698,6 +700,13 @@ ul {
     letter-spacing: 0.03em;
     display: inline;
     color: var(--brand-color-gray2);
+}
+.icon-icon-check {
+    position: absolute;
+    top: 23px;
+    left: 40px;
+}
+.checkbox-after::after {
 }
 .policy-link {
     color: var(--brand-color-blue);
