@@ -661,6 +661,7 @@ ul {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .modal-comment {
     box-sizing: border-box;
     width: 448px;
@@ -675,6 +676,17 @@ ul {
     top: 20px;
     left: 12px;
 }
+.form-icon:hover,
+.input-area:hover,
+.input-area:focus,
+.input-area:active {
+    border: 1px solid var(--brand-color-blue);
+    fill: var(--brand-color-blue);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .policy {
     flex-direction: row;
     margin-top: 20px;
@@ -708,8 +720,8 @@ ul {
     cursor: pointer;
     padding: 10px 41px 10px 42px;
     border-radius: 4px;
-    left: 164px;
-    top: 491px;
+    left: 124px;
+    top: 416px;
     position: absolute;
     display: flex;
     justify-content: center;
