@@ -572,7 +572,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .modal {
-    position: absolute;
+    position: relative;
     left: 50%;
     width: 528px;
     min-height: 581px;
@@ -647,6 +647,7 @@ ul {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .input-area {
@@ -690,7 +691,27 @@ ul {
     color: var(--brand-color-blue);
     text-decoration: underline;
 }
-.button-order. button-send-order {
+.button-send-order {
     width: 200px;
     height: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
+    padding: 10px 41px 10px 42px;
+    border-radius: 4px;
+    left: 164px;
+    top: 491px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
