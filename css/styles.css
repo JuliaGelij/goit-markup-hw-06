@@ -711,8 +711,8 @@ ul {
     top: 4px;
     z-index: -1;
 }
-.icon-check:checked {
-    z-index: 22;
+.checkbox-after:checked {
+    z-index: -4;
 }
 
 .policy-link {
