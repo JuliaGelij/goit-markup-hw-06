@@ -692,6 +692,10 @@ ul {
     flex-direction: row;
     margin-top: 20px;
     position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    gap: 7px;
 }
 .agree-checkbox {
     font-weight: 400;
@@ -701,13 +705,16 @@ ul {
     display: inline;
     color: var(--brand-color-gray2);
 }
-.icon-icon-check {
+.icon-check {
     position: absolute;
-    top: 23px;
-    left: 40px;
+    left: 17px;
+    top: 4px;
+    z-index: -1;
 }
-.checkbox-after::after {
+.icon-check:checked {
+    z-index: 22;
 }
+
 .policy-link {
     color: var(--brand-color-blue);
     text-decoration: underline;
