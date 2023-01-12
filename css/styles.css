@@ -661,6 +661,14 @@ ul {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+.input-area + .form-icon {
+    border: 1px solid var(--brand-color-blue);
+    fill: var(--brand-color-blue);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+}
 
 .modal-comment {
     box-sizing: border-box;
