@@ -776,7 +776,7 @@ ul {
     position: absolute;
     left: 1px;
     top: 8px;
-    z-index: -1;
+    z-index: 400;
 }
 .checkbox-after:checked {
     z-index: 45;
