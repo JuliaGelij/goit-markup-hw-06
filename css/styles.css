@@ -771,16 +771,18 @@ ul {
     letter-spacing: 0.03em;
     color: var(--brand-color-gray2);
 }
-
+.checkbox-after {
+    appearance: none;
+}
 .checked-icon {
     position: absolute;
     left: 1px;
     top: 8px;
     z-index: 400;
+    background: var(--brand-color-blue);
 }
 .checkbox-after:checked {
     z-index: 45;
-    background: var(--brand-color-blue);
 }
 
 .policy-link {
