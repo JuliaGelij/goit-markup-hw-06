@@ -388,6 +388,7 @@ ul {
     align-content: center;
     border-radius: 4px;
     cursor: pointer;
+    align-items: center;
 }
 .clients-item:hover {
     border-color: var(--brand-color-blue);
@@ -641,7 +642,6 @@ ul {
 }
 .personal-info {
     width: 448px;
-    height: 342px;
 
     margin-left: 40px;
     margin-right: 40px;
@@ -661,7 +661,7 @@ ul {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.input-area + .form-icon {
+.input-area:hover + .form-icon {
     border: 1px solid var(--brand-color-blue);
     fill: var(--brand-color-blue);
     transition-property: fill;
@@ -685,12 +685,24 @@ ul {
     top: 20px;
     left: 12px;
 }
+.input-svg {
+    position: relative;
+}
 .form-icon:hover,
 .input-area:hover,
 .input-area:focus,
 .input-area:active {
     border: 1px solid var(--brand-color-blue);
     fill: var(--brand-color-blue);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+}
+.modal-comment:hover,
+.modal-comment:focus,
+.modal-comment:active {
+    border: 1px solid var(--brand-color-blue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
