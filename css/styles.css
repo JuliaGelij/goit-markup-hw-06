@@ -477,6 +477,9 @@ ul {
     letter-spacing: 0.03em;
     color: var(--brand-color-gray2);
 }
+/* FOOTER================================================================================= */
+/* FOOTER================================================================================= */
+/* FOOTER================================================================================= */
 .bottom {
     background-color: var(--brand-color-dark);
     padding-top: 60px;
@@ -545,6 +548,7 @@ ul {
     justify-content: center;
     gap: 10px;
     cursor: pointer;
+    margin-bottom: 16px;
 }
 .address-join-item:hover {
     background-color: var(--brand-color-blue);
@@ -557,6 +561,33 @@ ul {
     align-content: center;
     gap: 70px;
 }
+.newsletter-email-input {
+    background: none;
+    outline: none;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--brand-color-white);
+    font-weight: 400;
+    font-style: normal;
+}
+.newsletter-submit {
+    width: 200px;
+    height: 50px;
+
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* MODAL====================================================================== */
+/* MODAL====================================================================== */
+/* MODAL====================================================================== */
 .is-hidden {
     pointer-events: none;
     visibility: hidden;
