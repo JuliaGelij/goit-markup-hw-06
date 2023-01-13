@@ -616,11 +616,7 @@
                 <h3 class="modal-header">
                     Zostaw swoje dane w formularzu poniżej
                 </h3>
-                <div
-                    class="order-group"
-                    role="group"
-                    aria-labelledby="personal-data"
-                >
+                <div class="order-group" role="group">
                     <form name="personal-info" class="personal-info">
                         <label for="client-name" class="modal-label"
                             >Imię
@@ -690,25 +686,28 @@
                             placeholder="Wprowadź tekst"
                         ></textarea>
                         <div class="policy">
-                            <input
-                                type="checkbox"
-                                name="privacy-policy"
-                                value="agree"
-                                class="checkbox-after"
-                                required
-                            />
-                            <svg class="icon-check" width="11" height="8">
-                                <use
-                                    xlink:href="images/icons.svg#icon-checked55"
-                                ></use>
-                            </svg>
-                            <p class="agree-checkbox">
-                                Oświadczam iż akceptuję
-                                <span class="policy-link">Regulamin</span> i
-                                <span class="policy-link"
-                                    >Politykę Prywatności</span
+                            <label class="policy">
+                                <input
+                                    type="checkbox"
+                                    name="privacy-policy"
+                                    class="checkbox-after"
+                                />
+                                <svg
+                                    width="11px"
+                                    height="8px"
+                                    class="checked-icon"
                                 >
-                            </p>
+                                    <use
+                                        href="images/icons.svg#icon-checked55"
+                                    ></use>
+                                </svg>
+
+                                Oświadczam iż akceptuję
+                                <a href="#" class="policy-link">Regulamin</a> i
+                                <a href="#" class="policy-link"
+                                    >Politykę Prywatności</a
+                                >
+                            </label>
                         </div>
                         <button class="button-send-order" type="submit">
                             Wyślij

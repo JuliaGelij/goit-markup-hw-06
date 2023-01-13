@@ -563,7 +563,6 @@ ul {
 }
 .newsletter-email-input {
     background: none;
-    outline: none;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -575,6 +574,10 @@ ul {
     color: var(--brand-color-white);
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 0.06em;
+}
+.newsletter-email-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
 }
 .newsletter-submit {
     width: 200px;
@@ -592,11 +595,15 @@ ul {
     border: none;
     text-align: center;
     letter-spacing: 0.06em;
+    position: absolute;
+    left: 378px;
+    top: 48px;
 }
-
-/* MODAL====================================================================== */
-/* MODAL====================================================================== */
-/* MODAL====================================================================== */
+.newsletter {
+    position: relative;
+    padding-left: 8px;
+}
+/* MODAL============================================================== */
 .is-hidden {
     pointer-events: none;
     visibility: hidden;
@@ -758,23 +765,22 @@ ul {
     align-content: center;
     display: flex;
     gap: 7px;
-}
-.agree-checkbox {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    display: inline;
     color: var(--brand-color-gray2);
 }
-.icon-check {
+
+.checked-icon {
     position: absolute;
-    left: 17px;
-    top: 4px;
+    left: 1px;
+    top: 8px;
     z-index: -1;
 }
 .checkbox-after:checked {
-    z-index: -4;
+    z-index: 45;
+    background: var(--brand-color-blue);
 }
 
 .policy-link {
