@@ -661,7 +661,9 @@ ul {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.input-area:hover + .form-icon {
+.input-area:hover + .form-icon,
+.input-area:active + .form-icon,
+.input-area:focus + .form-icon {
     fill: var(--brand-color-blue);
     transition-property: fill;
     transition-duration: 250ms;
