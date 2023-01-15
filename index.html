@@ -673,14 +673,17 @@
                     </ul>
                 </div>
 
-                <div class="newsletter">
-                    <p class="address-join">Zapisz się do newslettera</p>
+                <form name="newsletter-follow" class="newsletter">
+                    <label for="newsletter-input" class="address-join"
+                        >Zapisz się do newslettera</label
+                    >
 
                     <input
                         type="email"
                         name="newsletter-email"
                         placeholder="E-mail"
                         class="newsletter-email-input"
+                        id="newsletter-input"
                     />
 
                     <button type="submit" class="newsletter-submit">
@@ -690,7 +693,7 @@
                             <use href="images/icons.svg#icon-send"></use>
                         </svg>
                     </button>
-                </div>
+                </form>
             </section>
         </footer>
 
@@ -721,7 +724,7 @@
                                 type="text"
                                 name="name"
                                 id="client-name"
-                                class="input-area" 
+                                class="input-area"
                             /><svg
                                 class="form-icon icon-person"
                                 width="18"
