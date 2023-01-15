@@ -1132,8 +1132,6 @@ ul {
 
     height: 40px;
 
-    /* margin-bottom: 19px; */
-
     padding-left: 42px;
 
     padding-top: 12px;
@@ -1141,9 +1139,8 @@ ul {
     padding-bottom: 12px;
 }
 
-.input-area:hover + .form-icon,
-.input-area:active + .form-icon,
-.input-area:focus + .form-icon {
+.input-svg:active,
+.input-svg:focus-within {
     fill: var(--brand-color-blue);
 
     transition-property: fill;
@@ -1185,22 +1182,13 @@ ul {
     outline: none;
 }
 
-/* .form-icon {
-    outline: none;
-    position: absolute;
-    z-index: 20;
-    top: 35%;
-    transform: translateY(-50%);
-    left: 2.8%;
-} */
 .form-icon {
     outline: none;
     position: absolute;
     z-index: 20;
     top: 50%;
     transform: translateY(-50%);
-    right: 50%;
-    transform: translateY(-50%);
+    left: 2.8%;
 }
 .input-svg {
     position: relative;
